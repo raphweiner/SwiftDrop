@@ -23,6 +23,13 @@
 			remoteGlobalIDString = 64F49C391A4D2FE3000E1D91;
 			remoteInfo = SwiftDrop;
 		};
+		64F49C901A4D32E8000E1D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64F49C8B1A4D32E7000E1D91 /* SwiftDropExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64F49C661A4D32E6000E1D91;
+			remoteInfo = SwiftDropExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +40,7 @@
 		64F49C4C1A4D2FE3000E1D91 /* SwiftDropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDropTests.swift; sourceTree = "<group>"; };
 		64F49C561A4D3074000E1D91 /* SwiftDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDrop.swift; sourceTree = "<group>"; };
 		64F49C591A4D31BF000E1D91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64F49C8B1A4D32E7000E1D91 /* SwiftDropExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftDropExample.xcodeproj; path = SwiftDropExample/SwiftDropExample.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			children = (
 				64F49C3C1A4D2FE3000E1D91 /* SwiftDrop */,
 				64F49C491A4D2FE3000E1D91 /* SwiftDropTests */,
+				64F49C5C1A4D329B000E1D91 /* SwiftDropExample */,
 				64F49C3B1A4D2FE3000E1D91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +114,22 @@
 				64F49C4B1A4D2FE3000E1D91 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64F49C5C1A4D329B000E1D91 /* SwiftDropExample */ = {
+			isa = PBXGroup;
+			children = (
+				64F49C8B1A4D32E7000E1D91 /* SwiftDropExample.xcodeproj */,
+			);
+			path = SwiftDropExample;
+			sourceTree = "<group>";
+		};
+		64F49C8C1A4D32E7000E1D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F49C911A4D32E8000E1D91 /* SwiftDropExample.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +208,12 @@
 			mainGroup = 64F49C301A4D2FE3000E1D91;
 			productRefGroup = 64F49C3B1A4D2FE3000E1D91 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 64F49C8C1A4D32E7000E1D91 /* Products */;
+					ProjectRef = 64F49C8B1A4D32E7000E1D91 /* SwiftDropExample.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				64F49C391A4D2FE3000E1D91 /* SwiftDrop */,
@@ -190,6 +221,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		64F49C911A4D32E8000E1D91 /* SwiftDropExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftDropExample.app;
+			remoteRef = 64F49C901A4D32E8000E1D91 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		64F49C381A4D2FE3000E1D91 /* Resources */ = {
@@ -406,6 +447,7 @@
 				64F49C521A4D2FE3000E1D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64F49C531A4D2FE3000E1D91 /* Build configuration list for PBXNativeTarget "SwiftDropTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +456,7 @@
 				64F49C551A4D2FE3000E1D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

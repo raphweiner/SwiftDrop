@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649EBF891A59A4C800E31535 /* SwiftDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EBF7A1A59A29100E31535 /* SwiftDrop.swift */; };
+		64F49C6C1A4D32E6000E1D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F49C6B1A4D32E6000E1D91 /* AppDelegate.swift */; };
+		64F49C6E1A4D32E6000E1D91 /* ViewControllerWithSwiftDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F49C6D1A4D32E6000E1D91 /* ViewControllerWithSwiftDrop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		649EBF831A59A47E00E31535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649EBF7E1A59A47E00E31535 /* SwiftDrop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64F49C3A1A4D2FE3000E1D91;
+			remoteInfo = SwiftDrop;
+		};
+		649EBF851A59A47E00E31535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649EBF7E1A59A47E00E31535 /* SwiftDrop.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64F49C451A4D2FE3000E1D91;
+			remoteInfo = SwiftDropTests;
+		};
+		649EBF871A59A49C00E31535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649EBF7E1A59A47E00E31535 /* SwiftDrop.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 64F49C391A4D2FE3000E1D91;
+			remoteInfo = SwiftDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		649EBF7A1A59A29100E31535 /* SwiftDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftDrop.swift; path = ../../SwiftDrop/SwiftDrop.swift; sourceTree = "<group>"; };
+		649EBF7E1A59A47E00E31535 /* SwiftDrop.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftDrop.xcodeproj; path = ../../SwiftDrop.xcodeproj; sourceTree = "<group>"; };
+		64F49C661A4D32E6000E1D91 /* SwiftDropExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDropExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F49C6A1A4D32E6000E1D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F49C6B1A4D32E6000E1D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64F49C6D1A4D32E6000E1D91 /* ViewControllerWithSwiftDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithSwiftDrop.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F49C631A4D32E6000E1D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		649EBF7F1A59A47E00E31535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649EBF841A59A47E00E31535 /* SwiftDrop.framework */,
+				649EBF861A59A47E00E31535 /* SwiftDropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649EBF8A1A59A52700E31535 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				649EBF7E1A59A47E00E31535 /* SwiftDrop.xcodeproj */,
+				649EBF7A1A59A29100E31535 /* SwiftDrop.swift */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		64F49C5D1A4D32E6000E1D91 = {
+			isa = PBXGroup;
+			children = (
+				64F49C681A4D32E6000E1D91 /* SwiftDropExample */,
+				64F49C671A4D32E6000E1D91 /* Products */,
+				649EBF8A1A59A52700E31535 /* Vendor */,
+			);
+			sourceTree = "<group>";
+		};
+		64F49C671A4D32E6000E1D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F49C661A4D32E6000E1D91 /* SwiftDropExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F49C681A4D32E6000E1D91 /* SwiftDropExample */ = {
+			isa = PBXGroup;
+			children = (
+				64F49C6B1A4D32E6000E1D91 /* AppDelegate.swift */,
+				64F49C6D1A4D32E6000E1D91 /* ViewControllerWithSwiftDrop.swift */,
+				64F49C691A4D32E6000E1D91 /* Supporting Files */,
+			);
+			path = SwiftDropExample;
+			sourceTree = "<group>";
+		};
+		64F49C691A4D32E6000E1D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F49C6A1A4D32E6000E1D91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F49C651A4D32E6000E1D91 /* SwiftDropExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F49C851A4D32E7000E1D91 /* Build configuration list for PBXNativeTarget "SwiftDropExample" */;
+			buildPhases = (
+				64F49C621A4D32E6000E1D91 /* Sources */,
+				64F49C631A4D32E6000E1D91 /* Frameworks */,
+				64F49C641A4D32E6000E1D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				649EBF881A59A49C00E31535 /* PBXTargetDependency */,
+			);
+			name = SwiftDropExample;
+			productName = SwiftDropExample;
+			productReference = 64F49C661A4D32E6000E1D91 /* SwiftDropExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F49C5E1A4D32E6000E1D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = raphaelweiner;
+				TargetAttributes = {
+					64F49C651A4D32E6000E1D91 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 64F49C611A4D32E6000E1D91 /* Build configuration list for PBXProject "SwiftDropExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64F49C5D1A4D32E6000E1D91;
+			productRefGroup = 64F49C671A4D32E6000E1D91 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 649EBF7F1A59A47E00E31535 /* Products */;
+					ProjectRef = 649EBF7E1A59A47E00E31535 /* SwiftDrop.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				64F49C651A4D32E6000E1D91 /* SwiftDropExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		649EBF841A59A47E00E31535 /* SwiftDrop.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftDrop.framework;
+			remoteRef = 649EBF831A59A47E00E31535 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		649EBF861A59A47E00E31535 /* SwiftDropTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftDropTests.xctest;
+			remoteRef = 649EBF851A59A47E00E31535 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F49C641A4D32E6000E1D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F49C621A4D32E6000E1D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649EBF891A59A4C800E31535 /* SwiftDrop.swift in Sources */,
+				64F49C6E1A4D32E6000E1D91 /* ViewControllerWithSwiftDrop.swift in Sources */,
+				64F49C6C1A4D32E6000E1D91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		649EBF881A59A49C00E31535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDrop;
+			targetProxy = 649EBF871A59A49C00E31535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64F49C831A4D32E7000E1D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64F49C841A4D32E7000E1D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F49C861A4D32E7000E1D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/raphael/code/SwiftDrop/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = SwiftDropExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64F49C871A4D32E7000E1D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/raphael/code/SwiftDrop/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = SwiftDropExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F49C611A4D32E6000E1D91 /* Build configuration list for PBXProject "SwiftDropExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F49C831A4D32E7000E1D91 /* Debug */,
+				64F49C841A4D32E7000E1D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F49C851A4D32E7000E1D91 /* Build configuration list for PBXNativeTarget "SwiftDropExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F49C861A4D32E7000E1D91 /* Debug */,
+				64F49C871A4D32E7000E1D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F49C5E1A4D32E6000E1D91 /* Project object */;
+}
